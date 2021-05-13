@@ -133,6 +133,7 @@ div.dar {
   float: left;
   width: 33%;
   margin-left: 8em;
+  margin-top: 50px;
 }
 
 .column2 {
@@ -170,6 +171,8 @@ div.dar {
 .container {
   /*padding: 2px 16px;*/
   text-align: center;
+  margin-top: 150px;
+  padding: 5px;
 }
 
 .center {
@@ -300,20 +303,6 @@ div.dar {
 .container1 p{
   font-size: 2em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .col{
   width: 340px;

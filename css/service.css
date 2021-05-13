@@ -214,7 +214,10 @@ div.dar {
   padding: 5px;
 }
 
+.tree:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.733);
 
+}
 
 @media only screen and (max-width: 480px) {
   .tree {
@@ -253,6 +256,11 @@ div.dar {
   box-shadow: -7px 8px 10px #2b2828;
   border: 3px solid white;
   padding: 5px;
+}
+
+.tree3:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.733);
+
 }
 @media only screen and (max-width: 480px) {
   .tree3 {
@@ -435,6 +443,21 @@ body {
 .col2 ul {
   padding-left: 0px;
 }
+
+
+
+
+
+
+.content {
+  max-width: 1300px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+  box-shadow:0 0 10px wheat;
+  border-radius: 5px;
+}
+
 
 /* footer */
 
@@ -868,36 +891,6 @@ font-size:medium;
     font-size: 0.8em;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
