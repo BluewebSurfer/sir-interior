@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -173,6 +174,7 @@ div.dar {
   text-align: center;
   margin-top: 150px;
   padding: 5px;
+  font-size: 20px;
 }
 
 .center {

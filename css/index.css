@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -259,6 +260,8 @@ div.dar2 {
   padding: 16px;
   text-align: center;
   background-color: #f1f1f11f;
+  height: 730px;
+  font-size:18px
 }
 
 .container {
