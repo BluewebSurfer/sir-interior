@@ -5,7 +5,7 @@ body {
 
 
 .bg-img{
-  background-image: url("../image/bed.jpg");
+  background-image: url("https://images.pexels.com/photos/5178080/pexels-photo-5178080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   min-height: 670px;
   width: 100%;
   /* Center and scale the image nicely */
@@ -83,7 +83,7 @@ body {
 .note{
     float: left;
   margin-top: 280px;
-  margin-left: 38%;
+  margin-left: 45%;
   color: #f6f6f6;
 }
 .dar{
@@ -124,8 +124,8 @@ div.dar {
 
 
 
-.backimg{
-  background-image: url("../image/tiles.jpg");
+.backimg {
+  background-image: url("../image/background.jpeg");
   background-attachment: fixed;
   padding-top: 20px;
 }

@@ -5,7 +5,7 @@ body {
 
 
 .bg-img {
-  background-image: url("../image/bed.jpg");
+  background-image: url("https://images.pexels.com/photos/271795/pexels-photo-271795.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   min-height: 670px;
   width: 100%;
   /* Center and scale the image nicely */
@@ -103,6 +103,9 @@ body {
   font-family: 'Prata', serif;
 }
 
+h2 span {
+  color: #0099ff;
+}
 .dar h2 {
   margin-bottom: 0;
   margin-top: 0;
@@ -161,7 +164,7 @@ div.dar2 {
 }
 
 .backimg {
-  background-image: url("../image/tiles.jpg");
+  background-image: url("../image/background.jpeg");
   background-attachment: fixed;
   padding-top: 20px;
 }
