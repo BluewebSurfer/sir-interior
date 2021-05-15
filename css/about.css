@@ -151,7 +151,12 @@ div.dar {
   box-shadow: 0 0 10px black;
   border: 2px solid white;
 }
-
+@media only screen and (max-width: 360px) {
+  .img5 {
+    height:362px
+    
+  }
+}
 /* Clearfix (clear floats) */
 .row::after {
   content: "";

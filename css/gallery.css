@@ -186,6 +186,20 @@ div.dar {
 
 }
 
+@media only screen and (max-width: 360px) {
+  .new {
+    width: 337px;
+    
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .new {
+    width: 317px;
+    
+  }
+}
+
 .btn {
     border: none;
     color: black;
@@ -311,6 +325,8 @@ div.dar {
     }
   }
   
+
+  
   .centered2 {
     position: absolute;
     top: 50%;
@@ -401,10 +417,14 @@ div.dar {
     transform: translate(-50%, -50%);
      background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0, 0.4); 
-    font-size: 50px;
+    font-size: 40px;
   }
 
-
+  /* @media only screen and (max-width: 320px) {
+    .centered {
+      font-size: 40px;
+    }
+  } */
 
 
 
