@@ -41,12 +41,12 @@ body {
     text-decoration: none;
     font-size: 1.3em;
     /*font-family: 'Original Surfer', cursive;*/
-    font-family: 'Prata', serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .topnav a:hover {
     background-color: #3333330d;
-    color: #FE8484;
+    color: #0d6690;
 }
 
 .topnav a.active {
@@ -431,7 +431,7 @@ div.dar {
   /* footer */
 
 .footer {
-    background-color: #0d6690;
+    background-color: #4a415a;
     font-family: "Quicksand", sans-serif;
     text-align: left;
     font-family: sans-serif;
@@ -533,7 +533,7 @@ div.dar {
   }
   
   .footer .footer-center p a {
-    color: #00ff4c;
+    color: #0d6690;
     text-decoration: none;
   }
   
@@ -553,7 +553,7 @@ div.dar {
   }
   
   .footer h2 span {
-    color: #00ff4c;
+    color: #0d6690;
   }
   
   .footer .menu {

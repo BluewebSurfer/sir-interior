@@ -182,7 +182,7 @@ width: 100%;
   }
 .header-cards .header-card{
     width: 25%;
-    background-color: #2e2e2e;
+    background-color: #0d6690;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,7 +203,7 @@ width: 100%;
 .header-cards .header-card .fa-envelope,
 .header-cards .header-card .fa-globe{
     font-size: 4.5em;
-    border: 5px solid rgb(65, 65, 65);
+    border: 5px solid #4a415a;
     padding: 15px;
     border-radius: 50%;
     background-color: white;
@@ -332,7 +332,7 @@ body, html {
 /* footer */
 
 .footer {
-    background-color: #0d6690;
+    background-color: #4a415a;
     font-family: "Quicksand", sans-serif;
     text-align: left;
     font-family: sans-serif;

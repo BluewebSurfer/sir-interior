@@ -43,7 +43,7 @@ body {
   
   .topnav a:hover {
     background-color: #3333330d;
-    color: #FE8484;
+    color: #0d6690;
   }
   
   .topnav a.active {
@@ -198,7 +198,7 @@ body {
   /* footer */
 
 .footer {
-    background-color: #0d6690;
+    background-color: #4a415a;
     font-family: "Quicksand", sans-serif;
     text-align: left;
     font-family: sans-serif;

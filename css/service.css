@@ -38,12 +38,12 @@ body {
   text-decoration: none;
   font-size: 1.3em;
   /*font-family: 'Original Surfer', cursive;*/
-  font-family: 'Prata', serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .topnav a:hover {
   background-color: #3333330d;
-  color: #FE8484;
+  color: #0d6690;
 }
 
 .topnav a.active {
@@ -135,7 +135,7 @@ div.dar {
 
 .backimg {
   /*background-image: url("image/tiles.jpg");*/
-  background-color: #212121;
+  background-color: #0d6690;
   background-attachment: fixed;
   padding-top: 20px;
 }
@@ -490,6 +490,7 @@ body {
   overflow: hidden;
   padding: 20px;
   font-size: 25px;
+  color: white;
 }
 
 #slider-container .btn {
@@ -529,7 +530,7 @@ body {
 #slider-container #slider .slide {
   height: 90%;
   margin: auto 10px;
-  background-color: #e494e1;
+  background-color: #0d6690;
   box-shadow: 2px 2px 4px 2px white, -2px -2px 4px 2px white;
   display: grid;
   place-items: center;
@@ -582,7 +583,7 @@ body {
 /* footer */
 
 .footer {
-  background-color: #0d6690;
+  background-color: #4a415a;
   font-family: "Quicksand", sans-serif;
   text-align: left;
   font-family: sans-serif;

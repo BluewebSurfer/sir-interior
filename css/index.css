@@ -38,12 +38,12 @@ body {
   text-decoration: none;
   font-size: 1.3em;
   /*font-family: 'Original Surfer', cursive;*/
-  font-family: 'Prata', serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .topnav a:hover {
   background-color: #3333330d;
-  color: #FE8484;
+  color: #0d6690;
 }
 
 .topnav a.active {
@@ -188,7 +188,10 @@ div.dar2 {
   margin-bottom: 75px;
 }
 
-
+h5{
+  text-align: center;
+  font-size:45px;
+}
 .tree {
   float: left;
   width: 48%;
@@ -210,10 +213,10 @@ div.dar2 {
 }
 
 .text {
-  padding-top: 250px;
+  padding-top: 40px;
   margin-right: 30px;
   padding-left: 35px;
-  font-family: 'Prata', serif;
+  font-family: 'Quicksand', sans-serif;
   color: black;
   font-size: 2em;
 }
@@ -338,7 +341,7 @@ div.dar2 {
   padding-top: 250px;
   margin-right: 30px;
   padding-left: 35px;
-  font-family: 'Prata', serif;
+  font-family: 'Quicksand', sans-serif;
   color: black;
   font-size: 2em;
 }
@@ -539,7 +542,7 @@ div.hor {
 /* footer */
 
 .footer {
-  background-color: #0d6690;
+  background-color: #4a415a;
   font-family: "Quicksand", sans-serif;
   text-align: left;
   font-family: sans-serif;
