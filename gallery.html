@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" href="https://i.pinimg.com/originals/03/8a/34/038a3407e964784c432c92270c596922.gif" type="image/x-icon">
+  <link rel="shortcut icon" href="https://i.pinimg.com/originals/03/8a/34/038a3407e964784c432c92270c596922.gif"
+    type="image/x-icon">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
 
@@ -26,7 +27,7 @@
 <body>
   <div class="bg-img">
     <div class="topnav" id="myTopnav">
-      <a href="index.html" class="active">Interior Design</a>
+      <a href="index.html" class="active"><img src="./image/bluesurfer-logo-1.png" alt="Forest" style="width:100px" height="90px"></a>
       <a href="contact.html"><b>Contact Us</b></a>
       <a href="service.html"><b>Services</b></a>
       <a href="gallery.html"><b>Gallery</b></a>
@@ -46,107 +47,524 @@
   </div>
   <!-- <div class="backimg"> -->
   <button class="btn success">Project Gallery</button>
-  <!-- column -->
-  <div class="row">
-    <div class="column" style="background-color:rgba(170, 170, 170, 0);">
-      <div class="container">
-        <img src="image/interior-design-hbx030120raji-009-copy-1580424230.jpg" alt="Forest" class="new">
-        <div class="centered">Master Room</div>
-      </div>
-    </div>
-    <div class="column" style="background-color:rgba(187, 187, 187, 0);">
-      <div class="container">
-        <img src="image/interior-design-hbx030120raji-009-copy-1580424230.jpg" alt="Forest" class="new">
-        <div class="centered">Drawing Room</div>
-      </div>
-    </div>
-    <div class="column" style="background-color:rgba(204, 204, 204, 0);">
-      <div class="container">
-        <img src="image/interior-design-hbx030120raji-009-copy-1580424230.jpg" alt="Forest" class="new">
-        <div class="centered">Dining Room</div>
-      </div>
-    </div>
+  
+
+
+
+
+
+  <!--  -->
+
+
+
+  <div id="myBtnContainer" >
+    <button class="btn4 active" onclick="filterSelection('all')"> Show all</button>
+    
+    <button class="btn4" onclick="filterSelection('bedroom')"> Bedroom</button>
+    <button class="btn4" onclick="filterSelection('bathroom')"> Bathroom</button>
+    <button class="btn4" onclick="filterSelection('dining')"> Dining</button>
+    <button class="btn4" onclick="filterSelection('drawing')"> Drawing</button>
+    <button class="btn4" onclick="filterSelection('children')"> Children Room</button>
+    <button class="btn4" onclick="filterSelection('god')"> God Room</button>
+    <button class="btn4" onclick="filterSelection('kitchen')"> Kitchen</button>
+    <button class="btn4" onclick="filterSelection('ceiling')"> Ceiling</button>
+    <button class="btn4" onclick="filterSelection('office')"> Office design</button>
+    <button class="btn4" onclick="filterSelection('shop')"> Shop Design</button>
   </div>
 
+  <div class="container1">
+    <div class="filterDiv bedroom">
+      <div class="container">
+        <img src="image/bed1.jpg" alt="Forest" class="new">
+        <div class="centered">Bedroom</div>
+      </div>
+    </div>
 
-  <div class="row">
-    <div class="column" style="background-color:rgba(170, 170, 170, 0);">
-      <div class="container">
-        <img src="image/interior-design-hbx030120raji-009-copy-1580424230.jpg" alt="Forest" class="new">
-        <div class="centered">Children Room</div>
-      </div>
-    </div>
-    <div class="column" style="background-color:rgba(187, 187, 187, 0);">
-      <div class="container">
-        <img src="image/interior-design-hbx030120raji-009-copy-1580424230.jpg" alt="Forest" class="new">
-        <div class="centered">Balcony</div>
-      </div>
-    </div>
-    <div class="column" style="background-color:rgba(204, 204, 204, 0);">
-      <div class="container">
-        <img src="image/interior-design-hbx030120raji-009-copy-1580424230.jpg" alt="Forest" class="new">
-        <div class="centered">Kitchen</div>
-      </div>
-    </div>
-  </div>
 
-<br>
-  <div class="row">
-    <div class="column" style="background-color:rgba(170, 170, 170, 0);">
+    <div class="filterDiv colors bathroom">
       <div class="container">
-        <img src="image/interior-design-hbx030120raji-009-copy-1580424230.jpg" alt="Forest" class="new">
+        <img src="image/bathroom1.jpg" alt="Forest" class="new">
         <div class="centered">Bathroom</div>
       </div>
     </div>
-    <div class="column" style="background-color:rgba(187, 187, 187, 0);">
+    <div class="filterDiv shop">
       <div class="container">
-        <img src="image/interior-design-hbx030120raji-009-copy-1580424230.jpg" alt="Forest" class="new">
-        <div class="centered">Passage</div>
+        <img src="image/shop1 (1).jpg" alt="Forest" class="new">
+        <div class="centered">Shop Design</div>
       </div>
     </div>
-    <div class="column" style="background-color:rgba(204, 204, 204, 0);">
+    <div class="filterDiv drawing">
       <div class="container">
-        <img src="image/interior-design-hbx030120raji-009-copy-1580424230.jpg" alt="Forest" class="new">
-        <div class="centered">Staircase</div>
+        <img src="image/drawing1 (1).jpg" alt="Forest" class="new">
+        <div class="centered">Drawing Room</div>
+      </div>
+    </div>
+    <div class="filterDiv cars dining">
+      <div class="container">
+        <img src="image/dining1 (1).jpg" alt="Forest" class="new">
+        <div class="centered">Dining Room</div>
+      </div>
+    </div>
+    <div class="filterDiv bedroom">
+      <div class="container">
+        <img src="image/bedroom4 (1).jpg" alt="Forest" class="new">
+        <div class="centered">Bedroom</div>
+      </div>
+    </div>
+    <div class="filterDiv colors bathroom">
+      <div class="container">
+        <img src="image/bathroom2 (1).jpg" alt="Forest" class="new">
+        <div class="centered">Bathroom</div>
+      </div>
+    </div>
+    <div class="filterDiv ceiling">
+      <div class="container">
+        <img src="image/celling1 (8).jpg" alt="Forest" class="new">
+        <div class="centered">Ceiling Room</div>
+      </div>
+    </div>
+    <div class="filterDiv bedroom">
+      <div class="container">
+        <img src="image/bedroom4 (2).jpg" alt="Forest" class="new">
+        <div class="centered">Bedroom</div>
+      </div>
+    </div>
+    <div class="filterDiv cars dining">
+      <div class="container">
+        <img src="image/dining5 (1).jpg" alt="Forest" class="new">
+        <div class="centered">Dining Room</div>
+      </div>
+    </div>
+    <div class="filterDiv bedroom">
+      <div class="container">
+        <img src="image/bedroom4 (3).jpg" alt="Forest" class="new">
+        <div class="centered">Bedroom</div>
+      </div>
+    </div>
+    <div class="filterDiv shop">
+      <div class="container">
+        <img src="image/shop1 (2).jpg" alt="Forest" class="new">
+        <div class="centered">Shop Design</div>
+      </div>
+    </div>
+    <div class="filterDiv bedroom">
+      <div class="container">
+        <img src="image/bedroom4 (4).jpg" alt="Forest" class="new">
+        <div class="centered">Bedroom</div>
+      </div>
+    </div>
+    <div class="filterDiv cars dining">
+      <div class="container">
+        <img src="image/dining1 (2).jpg" alt="Forest" class="new">
+        <div class="centered">Dining Room</div>
+      </div>
+    </div>
+    <div class="filterDiv ceiling">
+      <div class="container">
+        <img src="image/celling1 (7).jpg" alt="Forest" class="new">
+        <div class="centered">Ceiling Room</div>
+      </div>
+    </div>
+    <div class="filterDiv colors bathroom">
+      <div class="container">
+        <img src="image/bathroom3 (2).jpg" alt="Forest" class="new">
+        <div class="centered">Bathroom</div>
+      </div>
+    </div>
+    <div class="filterDiv shop">
+      <div class="container">
+        <img src="image/shop1 (3).jpg" alt="Forest" class="new">
+        <div class="centered">Shop Design</div>
+      </div>
+    </div>
+    <div class="filterDiv cars dining">
+      <div class="container">
+        <img src="image/dining1 (3).jpg" alt="Forest" class="new">
+        <div class="centered">Dining Room</div>
+      </div>
+    </div>
+    <div class="filterDiv ceiling">
+      <div class="container">
+        <img src="image/celling1 (6).jpg" alt="Forest" class="new">
+        <div class="centered">Ceiling Room</div>
+      </div>
+    </div>
+    <div class="filterDiv children">
+      <div class="container">
+        <img src="image/child1 (1).jpg" alt="Forest" class="new">
+        <div class="centered">Children Room</div>
+      </div>
+    </div>
+    <div class="filterDiv cars dining">
+      <div class="container">
+        <img src="image/dining5 (2).jpg" alt="Forest" class="new">
+        <div class="centered">Dining Room</div>
+      </div>
+    </div>
+    <div class="filterDiv ceiling">
+      <div class="container">
+        <img src="image/celling1 (4).jpg" alt="Forest" class="new">
+        <div class="centered">Ceiling Room</div>
+      </div>
+    </div>
+    <div class="filterDiv shop">
+      <div class="container">
+        <img src="image/shop1 (4).jpg" alt="Forest" class="new">
+        <div class="centered">Shop Design</div>
+      </div>
+    </div>
+    <div class="filterDiv ceiling">
+      <div class="container">
+        <img src="image/celling1 (5).jpg" alt="Forest" class="new">
+        <div class="centered">Ceiling Room</div>
+      </div>
+    </div>
+    <div class="filterDiv children">
+      <div class="container">
+        <img src="image/child1 (2).jpg" alt="Forest" class="new">
+        <div class="centered">Children Room</div>
+      </div>
+    </div>
+    <div class="filterDiv shop">
+      <div class="container">
+        <img src="image/shop1 (5).jpg" alt="Forest" class="new">
+        <div class="centered">Shop Design</div>
+      </div>
+    </div>
+    <div class="filterDiv drawing">
+      <div class="container">
+        <img src="image/drawing1 (2).jpg" alt="Forest" class="new">
+        <div class="centered">Drawing Room</div>
+      </div>
+    </div>
+    <div class="filterDiv shop">
+      <div class="container">
+        <img src="image/shop1 (6).jpg" alt="Forest" class="new">
+        <div class="centered">Shop Design</div>
+      </div>
+    </div>
+    <div class="filterDiv cars dining">
+      <div class="container">
+        <img src="image/dining1 (4).jpg" alt="Forest" class="new">
+        <div class="centered">Dining Room</div>
+      </div>
+    </div>
+    <div class="filterDiv shop">
+      <div class="container">
+        <img src="image/shop1 (7).jpg" alt="Forest" class="new">
+        <div class="centered">Shop Design</div>
+      </div>
+    </div>
+    <div class="filterDiv office">
+      <div class="container">
+        <img src="image/office1 (8).jpg" alt="Forest" class="new">
+        <div class="centered">Office</div>
+      </div>
+    </div>
+    <div class="filterDiv shop">
+      <div class="container">
+        <img src="image/shop1 (8).jpg" alt="Forest" class="new">
+        <div class="centered">Shop Design</div>
+      </div>
+    </div>
+    <div class="filterDiv children">
+      <div class="container">
+        <img src="image/child1 (3).jpg" alt="Forest" class="new">
+        <div class="centered">Children Room</div>
+      </div>
+    </div>
+    <div class="filterDiv office">
+      <div class="container">
+        <img src="image/office1 (7).jpg" alt="Forest" class="new">
+        <div class="centered">Office</div>
+      </div>
+    </div>
+    <div class="filterDiv drawing">
+      <div class="container">
+        <img src="image/drawing1 (3).jpg" alt="Forest" class="new">
+        <div class="centered">Drawing Room</div>
+      </div>
+    </div>
+    <div class="filterDiv children">
+      <div class="container">
+        <img src="image/child1 (4).jpg" alt="Forest" class="new">
+        <div class="centered">Children Room</div>
+      </div>
+    </div>
+    <div class="filterDiv office">
+      <div class="container">
+        <img src="image/office1 (6).jpg" alt="Forest" class="new">
+        <div class="centered">Office</div>
+      </div>
+    </div>
+    <div class="filterDiv cars dining">
+      <div class="container">
+        <img src="image/dining1 (5).jpg" alt="Forest" class="new">
+        <div class="centered">Dining Room</div>
+      </div>
+    </div>
+    <div class="filterDiv drawing">
+      <div class="container">
+        <img src="image/drawing1 (4).jpg" alt="Forest" class="new">
+        <div class="centered">Drawing Room</div>
+      </div>
+    </div>
+    <div class="filterDiv children">
+      <div class="container">
+        <img src="image/child1 (5).jpg" alt="Forest" class="new">
+        <div class="centered">Children Room</div>
+      </div>
+    </div>
+    <div class="filterDiv office">
+      <div class="container">
+        <img src="image/office1 (5).jpg" alt="Forest" class="new">
+        <div class="centered">Office</div>
+      </div>
+    </div>
+    <div class="filterDiv colors bathroom">
+      <div class="container">
+        <img src="image/bathroom2 (2).jpg" alt="Forest" class="new">
+        <div class="centered">Bathroom</div>
+      </div>
+    </div>
+    <div class="filterDiv children">
+      <div class="container">
+        <img src="image/child1 (6).jpg" alt="Forest" class="new">
+        <div class="centered">Children Room</div>
+      </div>
+    </div>
+    <div class="filterDiv drawing">
+      <div class="container">
+        <img src="image/drawing1 (5).jpg" alt="Forest" class="new">
+        <div class="centered">Drawing Room</div>
+      </div>
+    </div>
+    <div class="filterDiv drawing">
+      <div class="container">
+        <img src="image/drawing1 (6).jpg" alt="Forest" class="new">
+        <div class="centered">Drawing Room</div>
+      </div>
+    </div>
+    <div class="filterDiv colors bathroom">
+      <div class="container">
+        <img src="image/bathroom3 (1).jpg" alt="Forest" class="new">
+        <div class="centered">Bathroom</div>
+      </div>
+    </div>
+    <div class="filterDiv drawing">
+      <div class="container">
+        <img src="image/drawing1 (7).jpg" alt="Forest" class="new">
+        <div class="centered">Drawing Room</div>
+      </div>
+    </div>
+    <div class="filterDiv drawing">
+      <div class="container">
+        <img src="image/drawing1 (8).jpg" alt="Forest" class="new">
+        <div class="centered">Drawing Room</div>
+      </div>
+    </div>
+    <div class="filterDiv ceiling">
+      <div class="container">
+        <img src="image/celling1 (1).jpg" alt="Forest" class="new">
+        <div class="centered">Ceiling Room</div>
+      </div>
+    </div>
+    <div class="filterDiv colors bathroom">
+      <div class="container">
+        <img src="image/bathroom2 (3).jpg" alt="Forest" class="new">
+        <div class="centered">Bathroom</div>
+      </div>
+    </div>
+    <div class="filterDiv ceiling">
+      <div class="container">
+        <img src="image/celling1 (2).jpg" alt="Forest" class="new">
+        <div class="centered">Ceiling Room</div>
+      </div>
+    </div>
+    <div class="filterDiv colors bathroom">
+      <div class="container">
+        <img src="image/bathroom2 (4).jpg" alt="Forest" class="new">
+        <div class="centered">Bathroom</div>
+      </div>
+    </div>
+    <div class="filterDiv kitchen">
+      <div class="container">
+        <img src="image/kitchen1 (1).jpg" alt="Forest" class="new">
+        <div class="centered">Kitchen</div>
+      </div>
+    </div>
+    <div class="filterDiv ceiling">
+      <div class="container">
+        <img src="image/celling1 (3).jpg" alt="Forest" class="new">
+        <div class="centered">Ceiling Room</div>
+      </div>
+    </div>
+    <div class="filterDiv children">
+      <div class="container">
+        <img src="image/child1 (7).jpg" alt="Forest" class="new">
+        <div class="centered">Children Room</div>
+      </div>
+    </div>
+    <div class="filterDiv colors bathroom">
+      <div class="container">
+        <img src="image/bathroom2 (5).jpg" alt="Forest" class="new">
+        <div class="centered">Bathroom</div>
+      </div>
+    </div>
+    <div class="filterDiv office">
+      <div class="container">
+        <img src="image/office1 (1).jpg" alt="Forest" class="new">
+        <div class="centered">Office</div>
+      </div>
+    </div>
+    <div class="filterDiv children">
+      <div class="container">
+        <img src="image/child.jpg" alt="Forest" class="new">
+        <div class="centered">Children Room</div>
+      </div>
+    </div>
+    <div class="filterDiv kitchen">
+      <div class="container">
+        <img src="image/kitchen1 (2).jpg" alt="Forest" class="new">
+        <div class="centered">Kitchen</div>
+      </div>
+    </div>
+    <div class="filterDiv bedroom">
+      <div class="container">
+        <img src="image/bed2.jpg" alt="Forest" class="new">
+        <div class="centered">Bedroom</div>
+      </div>
+    </div>
+    <div class="filterDiv god">
+      <div class="container">
+        <img src="image/god1 (4).jpg" alt="Forest" class="new">
+        <div class="centered">God Room</div>
+      </div>
+    </div>
+    <div class="filterDiv kitchen">
+      <div class="container">
+        <img src="image/kitchen1 (3).jpg" alt="Forest" class="new">
+        <div class="centered">Kitchen</div>
+      </div>
+    </div>
+    <div class="filterDiv office">
+      <div class="container">
+        <img src="image/office1 (2).jpg" alt="Forest" class="new">
+        <div class="centered">Office</div>
+      </div>
+    </div>
+    <div class="filterDiv kitchen">
+      <div class="container">
+        <img src="image/kitchen1 (4).jpg" alt="Forest" class="new">
+        <div class="centered">Kitchen</div>
+      </div>
+    </div>
+    <div class="filterDiv god">
+      <div class="container">
+        <img src="image/god1 (3).jpg" alt="Forest" class="new">
+        <div class="centered">God Room</div>
+      </div>
+    </div>
+    <div class="filterDiv kitchen">
+      <div class="container">
+        <img src="image/kitchen1 (5).jpg" alt="Forest" class="new">
+        <div class="centered">Kitchen</div>
+      </div>
+    </div>
+    <div class="filterDiv bedroom">
+      <div class="container">
+        <img src="image/bed3.jpg" alt="Forest" class="new">
+        <div class="centered">Bedroom</div>
+      </div>
+    </div>
+    <div class="filterDiv office">
+      <div class="container">
+        <img src="image/office1 (3).jpg" alt="Forest" class="new">
+        <div class="centered">Office</div>
+      </div>
+    </div>
+    <div class="filterDiv god">
+      <div class="container">
+        <img src="image/god1 (1).jpg" alt="Forest" class="new">
+        <div class="centered">God Room</div>
+      </div>
+    </div>
+    <div class="filterDiv office">
+      <div class="container">
+        <img src="image/office1 (4).jpg" alt="Forest" class="new">
+        <div class="centered">Office</div>
+      </div>
+    </div>
+    <div class="filterDiv bedroom">
+      <div class="container">
+        <img src="image/bed4.jpg" alt="Forest" class="new">
+        <div class="centered">Bedroom</div>
+      </div>
+    </div>
+    <div class="filterDiv god">
+      <div class="container">
+        <img src="image/god1 (2).jpg" alt="Forest" class="new">
+        <div class="centered">God Room</div>
       </div>
     </div>
   </div>
 
-  <!-- <button class="btn1 success">Recent Gallery</button> -->
+  <script>
+    filterSelection("all")
 
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("filterDiv");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
 
-  <!-- <div class="content"> -->
+    function w3AddClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {
+          element.className += " " + arr2[i];
+        }
+      }
+    }
 
- 
-    <div class="container1">
-      <img src="image/interior-design-hbx030120raji-009-copy-1580424230.jpg" alt="Forest" class="new1">
-      <div class="centered1">Ceiling design</div>
-    </div>
-  
-  <br>
-  <!-- </div> -->
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
+      }
+      element.className = arr1.join(" ");
+    }
 
-  <div class="row10">
-    <div class="column10" style="background-color:rgba(170, 170, 170, 0);">
-      <div class="container3">
-        <img src="image/interior-design-hbx030120raji-009-copy-1580424230.jpg" alt="Forest" class="new1">
-        <div class="centered2">Office design</div>
-      </div>
-    </div>
-    <div class="column10" style="background-color:rgba(187, 187, 187, 0);">
-      <div class="container3">
-        <img src="image/interior-design-hbx030120raji-009-copy-1580424230.jpg" alt="Forest" class="new1">
-        <div class="centered2">Shop Design</div>
-      </div>
-    </div>
-  </div>
-
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn4");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+  </script>
 
   <!-- footer -->
   <footer class="footer">
     <div class="footer-left col-md-4 col-sm-6">
       <p class="about">
-        <span> About the company</span> Shanti Interiors, located in Siliguri is the branch of the very successful head office located in Kolkata. It is spreading its roots to venture into new enterprises in Siliguri. We are a team of professional minds who have gained years of experience, so we understand the art and science behind Interior Designing. We perform extensive research, coordinate, plan and bring to life your visions for your space. 
+        <span> About the company</span> Shanti Interiors, located in Siliguri is the branch of the very successful head
+        office located in Kolkata. It is spreading its roots to venture into new enterprises in Siliguri. We are a team
+        of professional minds who have gained years of experience, so we understand the art and science behind Interior
+        Designing. We perform extensive research, coordinate, plan and bring to life your visions for your space.
       </p>
 
     </div>
@@ -158,21 +576,21 @@
       </div>
       <div>
         <i class="fa fa-phone"></i>
-        <p> (+91) 973 334 7999</p>
+        <p> (+91) 9732876767</p>
       </div>
       <div>
         <i class="fa fa-envelope"></i>
-        <p><a href="mailto:bws@bluewebsurfer.com"> bws@bluewebsurfer.com</a></p>
+        <p><a href="mailto:shantiinteriorssm@gmail.com"> shantiinteriorssm@gmail.com</a></p>
       </div>
     </div>
     <div class="footer-right col-md-4 col-sm-6">
       <h2> Shanti<span> Interior</span></h2>
       <p class="menu">
         <a href="index.html"> Home</a> |
-      <a href="gallery.html"> Gallery</a> |
-      <a href="service.html"> Services</a> |
-      <a href="about.html"> About Us</a> |
-      <a href="contact.html"> Find Us</a>
+        <a href="gallery.html"> Gallery</a> |
+        <a href="service.html"> Services</a> |
+        <a href="about.html"> About Us</a> |
+        <a href="contact.html"> Find Us</a>
       </p>
       <p class="menu">
         <a href="www.facebook.com"><i class="fa fa-facebook-square" aria-hidden="true" style="font-size:36px"></i></a>

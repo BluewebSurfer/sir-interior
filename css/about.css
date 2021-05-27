@@ -25,7 +25,7 @@ body {
 
 .topnav {
   overflow: hidden;
-  background-color: #3333330d;
+  background-color: #33333300;
   
 
 }
@@ -48,7 +48,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: #3333330d;
+  background-color: #33333300;
   color: white;
   float: left;
 }
@@ -80,13 +80,20 @@ body {
 }
 
 
-.note{
-    float: left;
+.note {
+  float: left;
   margin-top: 280px;
-  margin-left: 45%;
+  margin-left: 37%;
   color: #f6f6f6;
 }
-.dar{
+
+@media only screen and (max-width: 360px) {
+  .note {
+    margin-left: 12%;
+    
+  }
+}
+.dar {
   font-size: 3em;
   margin-bottom: 0;
   margin-top: 0;
@@ -96,15 +103,17 @@ body {
   font-family: 'Prata', serif;
 }
 
-.dar h2{
+.dar h2 {
   margin-bottom: 0;
   margin-top: 0;
+  
 }
 
 div.dar {
   width: 100%;
   overflow: hidden;
 }
+
 div.dar {
   animation: 3s slide-right;
 }
@@ -115,7 +124,7 @@ div.dar {
     width: 300%;
   }
 
-  to{
+  to {
     margin-left: 0%;
     width: 100%;
   }
