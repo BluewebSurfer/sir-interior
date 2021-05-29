@@ -459,6 +459,50 @@ div.dar {
   font-size: 3vw;
 }
 
+.container_project {
+  position: relative;
+  text-align: center;
+  color: white;
+  
+}
+.centered_project {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width:100%;
+  height: 15%;
+  transform: translate(-50%, -50%);
+   background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); 
+  font-size: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column1{
+    width: 100%;
+  }
+}
+
 /* @media only screen and (max-width: 320px) {
     .centered {
       font-size: 40px;
